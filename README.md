@@ -89,7 +89,8 @@ cond (enemy.hp <= 0) -> {
 loop (anycondition) -> {
     log "Repeating"
     break
-} end```
+} end
+```
 
 - Runs while the condition is true.
 
