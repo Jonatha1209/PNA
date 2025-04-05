@@ -1,0 +1,14 @@
+x: {
+    cnt: 0,
+    Cond: true;
+}
+
+loop (x.Cond) -> {
+    x.cnt: x.cnt + 1
+    log "Count: " + str(x.cnt)
+
+    cond (x.cnt == 5) -> {
+        log "Breaking!"
+        break
+    } end
+} end
