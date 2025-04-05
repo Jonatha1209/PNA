@@ -11,7 +11,7 @@ class ContinueSignal(Exception):
     pass
 
 
-class Interprinter:
+class Interpreter:
     def __init__(self):
         self.variables = {}
         self.builtin = {
