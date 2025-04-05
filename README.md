@@ -64,7 +64,7 @@ input "What is your name?" -> player.name
 ### If no prompt:
 
 ```pna
-input -> player.age
+input "NO" -> player.age
 ```
 
 - Equivalent to input() in python.
